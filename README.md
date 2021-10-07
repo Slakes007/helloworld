@@ -41,7 +41,7 @@ git pull --> pull from server
 git merge samplename --> merges branch youre in with the one you select
 <br>
 <br>
-git rebase samplename --> ???
+git rebase samplename --> gleiches wie merge, aber weird. gut für commit messages ändern
 
 <p> <b>Branches</b> </p>
 
