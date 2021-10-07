@@ -49,4 +49,8 @@ git branch samplename --> create new branch in existing project/branch
 <br>
 <br>
 git checkout samplename --> choosing branch you wanna work on
+<br>
+<br>
+git branch -d samplename --> delete branch
+
 
