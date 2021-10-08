@@ -38,6 +38,9 @@ git status --> see branch
 git pull --> pull from server
 <br>
 <br>
+git fetch --> pulls changes from server (new branches e.g but no data)
+<br>
+<br>
 git merge samplename --> merges branch youre in with the one you select
 <br>
 <br>
