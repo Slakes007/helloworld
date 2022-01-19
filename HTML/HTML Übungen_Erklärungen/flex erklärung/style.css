@@ -1,0 +1,52 @@
+img {
+    width: 50%;
+}
+
+section {
+    height: 50vh;
+    display: flex       ;
+    /* Durch flex kann man neue Befehle nutzen die sonst keinen Effekt hätten */
+    flex-direction: column;
+    /* flex-direction ändert die Achse auf der die Elemente angeordnet werden: row, column, ... */
+    justify-content: space-around;
+    /* justify-conten verteilt die Elemente und den ungenutzen Platz auf der Hauptachse! */
+    /* Hauptachse kann sich durch flex-direction ändern! */
+    align-items: center;
+}
+body {
+    margin: 0;
+}
+main {
+    height: 100vh; /*100vh view height komplette Bildschirmhöhe  */ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('bg.jpg') center / cover no-repeat;
+    /* shorthand für formatfüllendes Hintergrundbild */
+}
+article {
+    display: flex;
+    /* flex-direction: row; */
+    /* flex-wrap: ermöglicht den Zeilenumbruch, wenn die Elemente mehr platz bräuchen als der Browser verfügbar hat */
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.one {
+    order: 0;
+    /* order auf das Kindelement anwenden
+    default Wert für alle 0 
+    postiv => ans Ende
+    negativ => an den Anfang */
+}
+.two {
+    /* order: 1; */
+}
+div {
+    background: #555;
+    width: 100px;
+    margin: 2px;
+    color: #fff;
+}
+body {
+    margin: 0;
+}

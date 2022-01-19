@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+}
+
+
+
+.firstsec{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.divtext{
+    text-align: center;
+    font-size: 7vh;
+    width:100%;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+    background: black;
+
+    text-align: center;
+}
+
+
+
+.links{
+    margin: 1%;
+
+    text-decoration: none;
+    font-size: 4vh;
+    color: white;
+}
+
+.secondsec{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    background: black;
+    color: white;
+   }
+
+.divtext2{
+text-align: center;
+
+}
+
+.figurediv{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    font-size: 2.5vh;
+}
+
+.figure{
+    max-height:100%; 
+    max-width:100%;
+}
+
+
+
+
+
+
+
+
